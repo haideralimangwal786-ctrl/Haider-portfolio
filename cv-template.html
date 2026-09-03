@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Haider Ali — Curriculum Vitae</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 14mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      color: #1a1a1a;
+      background: #fff;
+      font-size: 10pt;
+      line-height: 1.4;
+    }
+    .header {
+      border-bottom: 2px solid #000;
+      padding-bottom: 8px;
+      margin-bottom: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .header-left h1 {
+      font-size: 22pt;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #0b130a;
+      text-transform: uppercase;
+    }
+    .header-left .subtitle {
+      font-size: 11pt;
+      font-weight: 600;
+      color: #2b6414;
+      margin-top: 2px;
+    }
+    .header-right {
+      text-align: right;
+      font-size: 8.5pt;
+      color: #333;
+      line-height: 1.35;
+    }
+    .header-right a {
+      color: #1a1a1a;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .section {
+      margin-bottom: 11px;
+    }
+    .section-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #0b130a;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .summary-text {
+      font-size: 9pt;
+      color: #333;
+      text-align: justify;
+      line-height: 1.35;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+    .item {
+      margin-bottom: 6px;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+    .item-title {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: #111;
+    }
+    .item-date {
+      font-size: 8pt;
+      color: #666;
+      font-weight: 600;
+    }
+    .item-sub {
+      font-size: 8.5pt;
+      color: #2b6414;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .item-desc {
+      font-size: 8.5pt;
+      color: #444;
+      line-height: 1.3;
+    }
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 8.5pt;
+    }
+    .skills-table td {
+      padding: 2.5px 0;
+      vertical-align: top;
+    }
+    .skills-table .label {
+      width: 130px;
+      font-weight: 700;
+      color: #222;
+    }
+    .skills-table .val {
+      color: #444;
+    }
+    .links-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 8.5pt;
+      margin-top: 3px;
+    }
+    .links-bar span {
+      font-weight: 600;
+      color: #0b130a;
+    }
+    .links-bar a {
+      color: #2b6414;
+      text-decoration: none;
+    }
+    ul.bullet-list {
+      margin-left: 14px;
+      margin-top: 2px;
+    }
+    ul.bullet-list li {
+      font-size: 8.5pt;
+      color: #444;
+      margin-bottom: 2px;
+      line-height: 1.3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="header-left">
+      <h1>Haider Ali</h1>
+      <div class="subtitle">Full-Stack & MERN Developer | Creative UI Engineer</div>
+    </div>
+    <div class="header-right">
+      <div><strong>Phone:</strong> +92 311 5809634</div>
+      <div><strong>Email:</strong> haideralimangwal786@gmail.com</div>
+      <div><strong>Location:</strong> Chakwal, Punjab, Pakistan (Remote Available)</div>
+      <div><strong>GitHub:</strong> github.com/haideralimangwal786-ctrl</div>
+      <div><strong>LinkedIn:</strong> linkedin.com/in/haider-ali-8a008325a</div>
+    </div>
+  </div>
+
+  <!-- Professional Summary -->
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <p class="summary-text">
+      Passionate and solution-oriented Full-Stack & MERN Developer with deep expertise in React.js, Node.js, Express.js, MongoDB, and modern web architectures. Demonstrated track record of architecting high-throughput RESTful APIs, responsive interfaces, and interactive user experiences with sub-second performance. Proven ability to translate complex technical requirements into scalable, clean, and elegant digital products.
+    </p>
+  </div>
+
+  <!-- Education -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Bachelor of Science in Computer Science (BSCS)</div>
+        <div class="item-date">2022 — 2026</div>
+      </div>
+      <div class="item-sub">University of Chakwal (UOC) — Chakwal, Pakistan</div>
+      <div class="item-desc">Focused on Advanced Data Structures, Web Engineering, Database Design, OOP, and Modern Software Paradigms.</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">F.Sc Pre-Engineering</div>
+        <div class="item-date">2020 — 2022</div>
+      </div>
+      <div class="item-sub">Kallar Science College (KKSC) — Kallar Kahar, Chakwal</div>
+      <div class="item-desc">Advanced studies in Mathematics, Physics, and analytical problem-solving with top academic distinction.</div>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Matriculation (Science)</div>
+        <div class="item-date">2018 — 2020</div>
+      </div>
+      <div class="item-sub">Government High School for Boys — Mangwal, Chakwal</div>
+      <div class="item-desc">Solid foundation in sciences, computer basics, and mathematical fundamentals.</div>
+    </div>
+  </div>
+
+  <!-- Technical Skills -->
+  <div class="section">
+    <div class="section-title">Technical Expertise</div>
+    <table class="skills-table">
+      <tr>
+        <td class="label">Frontend Technologies:</td>
+        <td class="val">React.js, JavaScript (ES6+ / Modern JS), HTML5, CSS3, Tailwind CSS, GSAP Animations, Responsive UI Design</td>
+      </tr>
+      <tr>
+        <td class="label">Backend & Database:</td>
+        <td class="val">Node.js, Express.js APIs, MongoDB, Mongoose ODM, RESTful Architecture, JWT Authentication, Middleware</td>
+      </tr>
+      <tr>
+        <td class="label">DevOps & Tooling:</td>
+        <td class="val">Git & GitHub, Vite, npm, Postman API Testing, Webpack/Babel pipelines, Clean Code & Agile</td>
+      </tr>
+      <tr>
+        <td class="label">CMS & E-Commerce:</td>
+        <td class="val">WordPress Store Architecture, Shopify Customization, Canva Pro, Advanced Excel Data Modeling</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Key Projects -->
+  <div class="section">
+    <div class="section-title">Featured Projects</div>
+
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Haider Portfolio & CMS (HaiderWeb)</div>
+        <div class="item-date"><a href="https://haiderweb-alpha.vercel.app/" style="color:#2b6414; text-decoration:none;">haiderweb-alpha.vercel.app [Live]</a></div>
+      </div>
+      <div class="item-sub">React.js, Node.js, Express.js, MongoDB, Tailwind CSS</div>
+      <ul class="bullet-list">
+        <li>Built an end-to-end full-stack portfolio with an interactive client dashboard and real-time project management.</li>
+        <li>Achieved 98+ Google Lighthouse performance rating through optimized bundle packaging and asset compression.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Dr. Waseem Iqbal Research Hub</div>
+        <div class="item-date"><a href="https://waseemiqbalresearchhub.vercel.app/" style="color:#2b6414; text-decoration:none;">waseemiqbalresearchhub.vercel.app [Live]</a></div>
+      </div>
+      <div class="item-sub">React.js, Modern UI Architecture, Academic Indexing APIs</div>
+      <ul class="bullet-list">
+        <li>Developed an academic research portal featuring publication indexing, citation counters, and research paper repositories.</li>
+        <li>Implemented high-contrast accessible layouts and sub-second filtering by conference and publication dates.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Premium Naat Player</div>
+        <div class="item-date"><a href="https://naat-coral.vercel.app/" style="color:#2b6414; text-decoration:none;">naat-coral.vercel.app [Live]</a></div>
+      </div>
+      <div class="item-sub">React.js, HTML5 Audio APIs, Tailwind CSS</div>
+      <ul class="bullet-list">
+        <li>Architected a custom audio streaming player with smooth buffering, playback controls, queue management, and offline cache.</li>
+        <li>Engineered a high-contrast dark aesthetic with fluid audio waveform animations.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Homedify — Multi-Vendor Marketplace & WallNest</div>
+        <div class="item-date">github.com/haideralimangwal786-ctrl</div>
+      </div>
+      <div class="item-sub">MERN Stack (MongoDB, Express, React, Node.js)</div>
+      <ul class="bullet-list">
+        <li>Engineered a full-featured e-commerce platform with cart operations, category filtering, and product management.</li>
+        <li>Developed WallNest wallpaper gallery with real-time API asset caching and seamless image preview transitions.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Experience -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+    
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Lead Full-Stack & MERN Developer</div>
+        <div class="item-date">2023 — Present</div>
+      </div>
+      <div class="item-sub">Remote / Independent Contracting</div>
+      <ul class="bullet-list">
+        <li>Developed 25+ modern web applications and custom systems using React.js and Node.js for international clients.</li>
+        <li>Engineered high-performance RESTful APIs with secure authentication, input sanitization, and database indexing.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <div class="item-header">
+        <div class="item-title">Frontend & E-Commerce Specialist</div>
+        <div class="item-date">2021 — 2023</div>
+      </div>
+      <div class="item-sub">Freelance & Client Services</div>
+      <ul class="bullet-list">
+        <li>Delivered high-converting Shopify and WordPress digital storefronts with custom styling and smooth checkout flows.</li>
+        <li>Created corporate brand collateral, presentations, and analytics reporting in Canva and Advanced Excel.</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>

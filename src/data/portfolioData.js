@@ -19,6 +19,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/haider-ali-8a008325a/",
     facebook: "https://www.facebook.com/share/18PW8D9uGc/",
     instagram: "https://www.instagram.com/haiderali26122?igsi=eGdrbWkwczJkNDlm",
+    cvUrl: "./Haider_Ali_CV.pdf",
     bio: "I design and build ultra-fast, aesthetically striking, and scalable digital products. Specialized in turning complex business ideas into seamless user experiences using modern full-stack technologies.",
     shortBio: "Architecting high-performance web applications with obsessive attention to typography, micro-interactions, and scalable engineering.",
     stats: [

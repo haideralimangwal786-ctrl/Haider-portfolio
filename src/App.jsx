@@ -89,6 +89,22 @@ const Icons = {
       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
     </svg>
   ),
+  Download: ({ className = "w-4 h-4" }) => (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+      <polyline points="7 10 12 15 17 10" />
+      <line x1="12" y1="15" x2="12" y2="3" />
+    </svg>
+  ),
+  FileText: ({ className = "w-4 h-4" }) => (
+    <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+      <line x1="16" y1="13" x2="8" y2="13" />
+      <line x1="16" y1="17" x2="8" y2="17" />
+      <polyline points="10 9 9 9 8 9" />
+    </svg>
+  ),
   BarChart: ({ className = "w-4 h-4" }) => (
     <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <line x1="18" y1="20" x2="18" y2="10" />
@@ -917,7 +933,19 @@ function Navbar({ activeSection, onNavigate }) {
             })}
           </nav>
 
-          <div className="hidden md:flex items-center">
+          <div className="hidden md:flex items-center gap-3">
+            <a
+              href="./Haider_Ali_CV.pdf"
+              download="Haider_Ali_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => soundManager.playClick()}
+              onMouseEnter={() => soundManager.playHover()}
+              className="px-4 py-2 rounded-xl font-mono text-xs font-bold uppercase tracking-wider text-white hover:text-[#6BF500] bg-[#0B130A] hover:bg-[#111d10] border border-[#162714] hover:border-[#6BF500]/50 transition-all flex items-center gap-1.5 shadow-[0_0_15px_rgba(0,0,0,0.5)]"
+            >
+              <Icons.Download className="w-3.5 h-3.5 text-[#6BF500]" />
+              <span>CV</span>
+            </a>
             <button
               onClick={() => handleLinkClick("contact")}
               onMouseEnter={() => soundManager.playHover()}
@@ -963,7 +991,18 @@ function Navbar({ activeSection, onNavigate }) {
               {link.label}
             </button>
           ))}
-          <div className="pt-6">
+          <div className="pt-6 flex flex-col gap-3">
+            <a
+              href="./Haider_Ali_CV.pdf"
+              download="Haider_Ali_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => soundManager.playClick()}
+              className="w-full py-3.5 rounded-xl bg-[#0B130A] border border-[#6BF500]/50 text-[#6BF500] font-bold font-mono uppercase tracking-wider flex items-center justify-center gap-2"
+            >
+              <Icons.Download className="w-4 h-4" />
+              <span>Download CV (PDF)</span>
+            </a>
             <button
               onClick={() => handleLinkClick("contact")}
               className="w-full py-4 rounded-xl bg-[#6BF500] text-[#050B04] font-bold font-mono uppercase tracking-wider shadow-[0_0_25px_rgba(107,245,0,0.5)] flex items-center justify-center gap-2"
@@ -1070,6 +1109,19 @@ function Hero({ data, onNavigate }) {
               <span>Contact Me</span>
               <Icons.ArrowRight className="w-4 h-4 text-[#6BF500] transition-transform duration-200 group-hover:translate-x-1" />
             </button>
+
+            <a
+              href="./Haider_Ali_CV.pdf"
+              download="Haider_Ali_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => soundManager.playClick()}
+              onMouseEnter={() => soundManager.playHover()}
+              className="group px-7 py-4 rounded-xl font-mono text-sm font-bold uppercase tracking-wider text-[#6BF500] bg-[#050B04] hover:bg-[#0e1c0a] border border-[#6BF500]/50 hover:border-[#6BF500] transition-all duration-300 hover:shadow-[0_0_25px_rgba(107,245,0,0.35)] active:scale-95 flex items-center gap-2.5"
+            >
+              <Icons.Download className="w-4 h-4 text-[#6BF500] transition-transform duration-200 group-hover:translate-y-0.5" />
+              <span>Download CV</span>
+            </a>
           </div>
 
           {/* Social Media Row in Hero */}
@@ -1284,7 +1336,7 @@ function About({ data, onNavigate }) {
               ))}
             </div>
 
-            <div className="pt-2">
+            <div className="pt-2 flex flex-wrap items-center gap-5">
               <button
                 onClick={() => {
                   soundManager.playClick();
@@ -1296,6 +1348,19 @@ function About({ data, onNavigate }) {
                 <span>Let's collaborate on your next project</span>
                 <Icons.ArrowRight className="w-4 h-4" />
               </button>
+
+              <a
+                href="./Haider_Ali_CV.pdf"
+                download="Haider_Ali_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => soundManager.playClick()}
+                onMouseEnter={() => soundManager.playHover()}
+                className="px-4 py-2 rounded-xl bg-[#0B130A] border border-[#162714] hover:border-[#6BF500]/60 text-white hover:text-[#6BF500] font-mono text-xs font-semibold uppercase tracking-wider transition-all flex items-center gap-2 shadow-[0_0_15px_rgba(0,0,0,0.5)] hover:shadow-[0_0_20px_rgba(107,245,0,0.25)]"
+              >
+                <Icons.Download className="w-3.5 h-3.5 text-[#6BF500]" />
+                <span>Download CV (PDF)</span>
+              </a>
             </div>
           </div>
         </div>

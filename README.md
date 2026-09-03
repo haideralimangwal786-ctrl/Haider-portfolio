@@ -1,40 +1,68 @@
-# Haider-portfolio
+# Haider Ali — Senior Full-Stack & Creative UI Engineer Portfolio ⚡
 
-> **Haider Ali** — Full-Stack Developer & Creative UI Engineer  
-> Specializing in React.js, Node.js, Express.js, MongoDB, GSAP animations, and high-performance web systems.
+> **Official Personal Portfolio & Production Showcase**  
+> Architected with React.js, Tailwind CSS, GSAP Animations, and modern web engineering paradigms.
 
----
-
-## 🚀 Live Preview
-- **Live Portfolio**: [https://haiderweb-alpha.vercel.app/](https://haiderweb-alpha.vercel.app/)
-- **GitHub Profile**: [https://github.com/haideralimangwal786-ctrl](https://github.com/haideralimangwal786-ctrl)
-- **LinkedIn Profile**: [https://www.linkedin.com/in/haider-ali-8a008325a/](https://www.linkedin.com/in/haider-ali-8a008325a/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stack: MERN](https://img.shields.io/badge/Stack-MERN-6BF500.svg)](https://react.dev)
+[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 
 ---
 
-## ✨ Featured Projects
-1. **HaiderWeb (Personal Portfolio & Studio)** — Full-Stack interactive web experience with custom audio design and real-time CMS.
-2. **Dr. Waseem Iqbal Research Hub** — Academic portal with real-time Google Scholar sync, citations graph, and publication archive.
-3. **Premium Naat Player** — High-fidelity dark audio experience with custom audio equalizer, queue management, and offline cache.
-4. **Homedify Marketplace** — Full-stack furniture & home decor platform with cart, checkout, and inventory tracking.
-5. **WallNest Mobile Wallpapers** — React Native / Expo wallpaper engine with 4K asset pipeline and custom category filters.
+## 🚀 Live Demos & Authentic Projects
+
+- 🌐 **HaiderWeb (Portfolio & CMS)**: [https://haiderweb-alpha.vercel.app/](https://haiderweb-alpha.vercel.app/)
+- 🔬 **Dr. Waseem Iqbal Research Hub**: [https://waseemiqbalresearchhub.vercel.app/](https://waseemiqbalresearchhub.vercel.app/)
+- 🎵 **Premium Naat Player**: [https://naat-coral.vercel.app/](https://naat-coral.vercel.app/)
+- 🛒 **Homedify (Multi-Vendor Marketplace)**: [GitHub Repository](https://github.com/haideralimangwal786-ctrl)
+- 📱 **WallNest (Wallpaper Mobile App)**: [GitHub Repository](https://github.com/haideralimangwal786-ctrl)
 
 ---
 
-## 🛠️ Core Tech Stack
-- **Frontend Architecture**: React 18, Tailwind CSS, Vanilla CSS Design System
-- **Creative & Motion**: GSAP (GreenSock Animation Platform), Canvas Confetti
-- **Runtime & Tooling**: In-browser modern Babel transpilation, Vite
-- **Version Control**: Git & GitHub
+## 🛠️ Tech Stack & Architecture
+
+- **Frontend**: React.js, JavaScript (ES6+), Tailwind CSS, GSAP Smooth Animations, HTML5 & CSS3
+- **Backend & APIs**: Node.js, Express.js RESTful APIs, JWT Authentication, Web Audio APIs
+- **Database & Data Modeling**: MongoDB, Mongoose ODM
+- **CMS & E-Commerce**: WordPress, Shopify Customization, Canva Pro, Advanced Excel
+- **Tooling & DevOps**: Git & GitHub, Vite, Postman, Babel, Zero-Dependency PowerShell Server
 
 ---
 
-## 📬 Contact Information
+## 🎓 Academic Background
+
+- **BS Computer Science (BSCS)** (2022 — 2026) — *University of Chakwal (UOC)*
+- **F.Sc Pre-Engineering** (2020 — 2022) — *Kallar Science College (KKSC), Kallar Kahar*
+- **Matriculation** (2018 — 2020) — *Government High School for Boys, Mangwal*
+
+---
+
+## 📬 Contact & Connect
+
+- **Phone / WhatsApp**: [+92 311 5809634](https://wa.me/923115809634)
 - **Email**: [haideralimangwal786@gmail.com](mailto:haideralimangwal786@gmail.com)
-- **WhatsApp**: [+92 311 5809634](https://wa.me/923115809634)
-- **Facebook**: [Haider Ali](https://www.facebook.com/share/18PW8D9uGc/)
+- **GitHub**: [github.com/haideralimangwal786-ctrl](https://github.com/haideralimangwal786-ctrl)
+- **LinkedIn**: [linkedin.com/in/haider-ali-8a008325a](https://www.linkedin.com/in/haider-ali-8a008325a/)
+- **Facebook**: [facebook.com/share/18PW8D9uGc](https://www.facebook.com/share/18PW8D9uGc/)
 - **Instagram**: [@haiderali26122](https://www.instagram.com/haiderali26122?igsi=eGdrbWkwczJkNDlm)
 
 ---
 
-© 2026 Haider Ali. All Rights Reserved.
+## ⚡ Running Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/haideralimangwal786-ctrl/Haider-portfolio.git
+
+# Navigate into the project
+cd Haider-portfolio
+
+# Start the zero-dependency local static server
+powershell -ExecutionPolicy Bypass -File .\start-server.ps1
+```
+
+Server will run at `http://localhost:5173/`.
+
+---
+
+© 2026 Haider Ali. All rights reserved.
