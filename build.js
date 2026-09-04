@@ -20,6 +20,14 @@ if (fs.existsSync('cv-template.html')) {
   fs.copyFileSync('cv-template.html', path.join(dist, 'cv-template.html'));
 }
 
+// Copy SEO Assets (sitemap & robots.txt)
+if (fs.existsSync('sitemap.xml')) {
+  fs.copyFileSync('sitemap.xml', path.join(dist, 'sitemap.xml'));
+}
+if (fs.existsSync('robots.txt')) {
+  fs.copyFileSync('robots.txt', path.join(dist, 'robots.txt'));
+}
+
 // Recursively copy directory
 function copyDir(src, dest) {
   if (!fs.existsSync(dest)) {

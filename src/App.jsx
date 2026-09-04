@@ -235,17 +235,18 @@ const Icons = {
 const portfolioData = {
   personal: {
     name: "Haider Ali",
-    role: "Full-Stack & MERN Developer | AI & E-Commerce Specialist",
+    role: "Web Developer & React Developer | Full-Stack Engineer",
     roles: [
-      "Full-Stack Developer",
-      "MERN Stack Developer",
-      "AI Models & App Development",
-      "WordPress & Shopify Store Expert",
-      "E-Commerce AI Integration",
-      "Canva & Excel Specialist"
+      "Web Developer in Pakistan",
+      "React Developer",
+      "Frontend Developer",
+      "JavaScript Developer",
+      "Website Developer in Chakwal",
+      "Portfolio Website Developer",
+      "Full-Stack MERN Developer"
     ],
     status: "Available for Freelance & Full-time Roles",
-    location: "Global / Remote",
+    location: "Chakwal & Islamabad, Pakistan (Remote & Worldwide)",
     email: "haideralimangwal786@gmail.com",
     phone: "+92 311 5809634",
     whatsapp: "https://wa.me/923115809634",
@@ -253,7 +254,7 @@ const portfolioData = {
     linkedin: "https://www.linkedin.com/in/haider-ali-8a008325a/",
     facebook: "https://www.facebook.com/share/18PW8D9uGc/",
     instagram: "https://www.instagram.com/haiderali26122?igsi=eGdrbWkwczJkNDlm",
-    bio: "I design and build ultra-fast, aesthetically striking, and scalable digital products. Specialized in turning complex business ideas into seamless user experiences using modern full-stack technologies.",
+    bio: "Haider Ali is a professional Web Developer & React Developer based in Pakistan. Specializing in React, JavaScript, Tailwind CSS, and modern responsive websites, I provide high-performance web development services for businesses in Chakwal, Islamabad, and worldwide.",
     shortBio: "Architecting high-performance web applications with obsessive attention to typography, micro-interactions, and scalable engineering.",
     stats: [
       { label: "Years Experience", value: "3+" },
@@ -1073,12 +1074,17 @@ function Hero({ data, onNavigate }) {
             </span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white mb-4 leading-[1.1]">
-            Hello, I'm{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6BF500] via-[#86fa24] to-[#c2ff77] drop-shadow-[0_0_35px_rgba(107,245,0,0.45)]">
-              {data.personal.name}
+          <div className="flex flex-col mb-4">
+            <span className="text-base sm:text-lg font-mono text-[#6BF500] mb-2 font-medium">
+              Hello, I'm {data.personal.name}
             </span>
-          </h1>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
+              Web Developer &amp;{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6BF500] via-[#86fa24] to-[#c2ff77] drop-shadow-[0_0_35px_rgba(107,245,0,0.45)]">
+                React Developer
+              </span>
+            </h1>
+          </div>
 
           <div className="h-10 sm:h-12 flex items-center mb-5">
             <p className="font-mono text-lg sm:text-2xl text-[#A0A5A0]">
@@ -1181,8 +1187,8 @@ function Hero({ data, onNavigate }) {
 
             <div className="relative w-full h-full rounded-full overflow-hidden flex items-end justify-center">
               <img
-                src="./src/assets/haider-about-cutout.png"
-                alt={data.personal.name}
+                src="./src/assets/haider-web-developer.png"
+                alt="Haider Ali - Web Developer & React Developer in Chakwal, Pakistan"
                 className="w-full h-full object-cover object-[center_10%] scale-135 transition-transform duration-700 ease-out group-hover:scale-140"
                 style={{
                   filter: "drop-shadow(0 15px 30px rgba(0, 0, 0, 0.9)) drop-shadow(0 0 25px rgba(107, 245, 0, 0.45))"
@@ -1252,7 +1258,7 @@ function About({ data, onNavigate }) {
             <span className="h-px w-12 bg-[#6BF500]/40" />
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-            About <span className="text-[#6BF500]">My Mission</span> & Craft
+            About <span className="text-[#6BF500]">Me</span>
           </h2>
         </div>
 
@@ -1282,8 +1288,8 @@ function About({ data, onNavigate }) {
 
               {/* Transparent Cutout Image */}
               <img
-                src="./src/assets/haider-about-cutout.png"
-                alt="Haider Ali"
+                src="./src/assets/haider-web-developer.png"
+                alt="Haider Ali - Web Developer & React Developer in Pakistan"
                 className="relative z-10 w-full h-[95%] object-contain object-bottom transition-transform duration-700 ease-out group-hover:scale-105"
                 style={{
                   filter: "drop-shadow(0 15px 30px rgba(0, 0, 0, 0.9)) drop-shadow(0 0 25px rgba(107, 245, 0, 0.35))"
@@ -1309,13 +1315,13 @@ function About({ data, onNavigate }) {
           {/* Right Column: Narrative & Stats */}
           <div className="lg:col-span-7 flex flex-col gap-6 text-white text-base sm:text-lg leading-relaxed">
             <p className="font-medium text-white text-xl sm:text-2xl leading-snug">
-              "Building digital products is more than writing code — it's about solving intricate problems with speed, elegance, and unyielding precision."
+              "Building digital products is more than writing code — it's about solving real-world business problems with speed, elegance, and unyielding precision."
             </p>
             <p className="text-[#A0A5A0]">
-              I am a passionate Full-Stack Engineer with deep expertise in modern React architectures, server-side design, and high-performance animation systems. Over the years, I've transformed ambitious visions into scalable, resilient web applications that users love.
+              I am a professional <strong className="text-white font-semibold">Web Developer in Pakistan</strong> and dedicated <strong className="text-[#6BF500] font-semibold">React Developer</strong> &amp; <strong className="text-white font-semibold">Frontend Developer</strong> specializing in building fast, scalable, and responsive web applications. Based as a premier <strong className="text-white font-semibold">Website Developer in Chakwal</strong> and working with businesses in Islamabad and across Pakistan, I help brands establish an authoritative online presence.
             </p>
             <p className="text-[#A0A5A0]">
-              Whether building enterprise-grade SaaS platforms, real-time analytics hubs, or award-worthy creative frontends, I ensure every single line of code is modular, well-tested, and optimized for sub-second interactions.
+              As a seasoned <strong className="text-white font-semibold">JavaScript Developer</strong> and <strong className="text-[#6BF500] font-semibold">Portfolio Website Developer</strong>, I ensure every website is built with clean semantics, robust architecture, and 100% responsive design optimized for top search engine rankings.
             </p>
 
             {/* Stats Grid */}
@@ -1444,10 +1450,10 @@ function Skills() {
             <span className="h-px w-12 bg-[#6BF500]/40" />
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-            Technical <span className="text-[#6BF500]">Arsenal & Skills</span>
+            My <span className="text-[#6BF500]">Services</span>
           </h2>
           <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-2xl">
-            A dynamic, battle-tested repertoire spanning Full-Stack MERN, AI Models & App Development, Shopify & WordPress e-commerce, and Canva/Excel visual analytics.
+            Professional Web Development, React Frontend Engineering, Full-Stack MERN solutions, and modern digital services tailored for businesses in Chakwal, Islamabad, and across Pakistan.
           </p>
         </div>
 
@@ -1641,10 +1647,10 @@ function Projects({ data }) {
               <span className="h-px w-12 bg-[#6BF500]/40" />
             </div>
             <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-              Featured <span className="text-[#6BF500]">Creations</span>
+              Featured <span className="text-[#6BF500]">Projects</span>
             </h2>
             <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-lg">
-              A curated selection of high-impact web apps, digital products, and experimental UI prototypes.
+              A curated selection of high-performance web applications, responsive websites, and full-stack systems developed by Haider Ali.
             </p>
           </div>
 
@@ -1679,7 +1685,7 @@ function Projects({ data }) {
               <div className="relative w-full h-52 overflow-hidden bg-[#050B04]">
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt={`${project.title} - Web Development Project by Haider Ali`}
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 opacity-85 group-hover:opacity-100"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B130A] via-[#0B130A]/20 to-transparent" />
@@ -2067,10 +2073,10 @@ function Contact({ data }) {
             <span className="h-px w-12 bg-[#6BF500]/40" />
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-            Let's Build Something <span className="text-[#6BF500]">Legendary</span>
+            Contact <span className="text-[#6BF500]">Me</span>
           </h2>
           <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-xl">
-            Have a project in mind, an engineering role to discuss, or just want to connect? Send a message or reach out through any social channel.
+            Have a project in mind, need a modern responsive website, or want to discuss frontend engineering? Send a direct message or get in touch below.
           </p>
         </div>
 
@@ -2129,11 +2135,11 @@ function Contact({ data }) {
 
             <div className="p-6 rounded-2xl bg-[#0B130A] border border-[#162714] flex flex-col gap-3">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-mono uppercase text-[#A0A5A0]">Location & Timezone</span>
-                <span className="text-xs font-mono text-[#6BF500]">GMT+5 (Remote Friendly)</span>
+                <span className="text-xs font-mono uppercase text-[#A0A5A0]">Location & Services</span>
+                <span className="text-xs font-mono text-[#6BF500]">Chakwal & Islamabad, Pakistan</span>
               </div>
               <p className="text-sm text-[#A0A5A0]">
-                Available for worldwide remote contracts, consulting, and full-time technical leadership.
+                Providing website development services for businesses in Chakwal, Islamabad, and throughout Pakistan, as well as worldwide remote web development contracts.
               </p>
             </div>
           </div>
