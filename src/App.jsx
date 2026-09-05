@@ -254,7 +254,7 @@ const portfolioData = {
     linkedin: "https://www.linkedin.com/in/haider-ali-8a008325a/",
     facebook: "https://www.facebook.com/share/18PW8D9uGc/",
     instagram: "https://www.instagram.com/haiderali26122?igsi=eGdrbWkwczJkNDlm",
-    bio: "Haider Ali is a professional Web Developer & React Developer based in Pakistan. Specializing in React, JavaScript, Tailwind CSS, and modern responsive websites, I provide high-performance web development services for businesses in Chakwal, Islamabad, and worldwide.",
+    bio: "Haider Ali is a professional Web Developer in Chakwal & React Developer based in Pakistan. Specializing in React, JavaScript, Tailwind CSS, and modern responsive websites, I provide high-performance web development services for businesses in Chakwal, Islamabad, and worldwide.",
     shortBio: "Architecting high-performance web applications with obsessive attention to typography, micro-interactions, and scalable engineering.",
     stats: [
       { label: "Years Experience", value: "3+" },
