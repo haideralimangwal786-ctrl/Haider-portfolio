@@ -235,16 +235,15 @@ const Icons = {
 const portfolioData = {
   personal: {
     name: "Haider Ali",
-    role: "MERN Stack Developer & Web Developer | AI & Full-Stack Specialist",
+    role: "Web Developer & React Developer | Full-Stack Engineer",
     roles: [
-      "MERN Stack Developer",
-      "Web Developer",
-      "MERN & AI Combo Engineer",
-      "Haider Developer",
+      "Web Developer in Pakistan",
       "React Developer",
       "Frontend Developer",
+      "JavaScript Developer",
       "Website Developer in Chakwal",
-      "Portfolio Website Developer"
+      "Portfolio Website Developer",
+      "Full-Stack MERN Developer"
     ],
     status: "Available for Freelance & Full-time Roles",
     location: "Chakwal & Islamabad, Pakistan (Remote & Worldwide)",
@@ -255,7 +254,7 @@ const portfolioData = {
     linkedin: "https://www.linkedin.com/in/haider-ali-8a008325a/",
     facebook: "https://www.facebook.com/share/18PW8D9uGc/",
     instagram: "https://www.instagram.com/haiderali26122?igsi=eGdrbWkwczJkNDlm",
-    bio: "Haider Ali (Haider Developer) is a professional Web Developer, MERN Stack Developer & AI Specialist based in Chakwal, Pakistan. Specializing in MERN stack architecture, React, Node.js, AI Models, and modern responsive websites, I provide high-performance web development services for businesses in Chakwal, Islamabad, and worldwide.",
+    bio: "Haider Ali is a professional Web Developer & React Developer based in Pakistan. Specializing in React, JavaScript, Tailwind CSS, and modern responsive websites, I provide high-performance web development services for businesses in Chakwal, Islamabad, and worldwide.",
     shortBio: "Architecting high-performance web applications with obsessive attention to typography, micro-interactions, and scalable engineering.",
     stats: [
       { label: "Years Experience", value: "3+" },
@@ -1080,9 +1079,9 @@ function Hero({ data, onNavigate }) {
               Hello, I'm {data.personal.name}
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
-              MERN Stack &amp;{" "}
+              Web Developer &amp;{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6BF500] via-[#86fa24] to-[#c2ff77] drop-shadow-[0_0_35px_rgba(107,245,0,0.45)]">
-                Web Developer
+                React Developer
               </span>
             </h1>
           </div>
