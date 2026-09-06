@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap Reference
 Sitemap: https://haider-portfolio-nu.vercel.app/sitemap.xml

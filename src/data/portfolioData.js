@@ -23,8 +23,8 @@ export const portfolioData = {
     bio: "I design and build ultra-fast, aesthetically striking, and scalable digital products. Specialized in turning complex business ideas into seamless user experiences using modern full-stack technologies.",
     shortBio: "Architecting high-performance web applications with obsessive attention to typography, micro-interactions, and scalable engineering.",
     stats: [
-      { label: "Years of Experience", value: "3+", numeric: 3, suffix: "+" },
-      { label: "Completed Projects", value: "25+", numeric: 25, suffix: "+" },
+      { label: "Projects Built", value: "15+", numeric: 15, suffix: "+" },
+      { label: "MERN & React Focus", value: "100%", numeric: 100, suffix: "%" },
       { label: "Client Satisfaction", value: "100%", numeric: 100, suffix: "%" },
       { label: "Code Commits", value: "1.2k+", numeric: 1200, suffix: "+" }
     ],
@@ -78,14 +78,35 @@ export const portfolioData = {
 
   projects: [
     {
+      id: "dr-waseem-iqbal-hub",
+      title: "Dr. Waseem Iqbal Research Hub",
+      category: "Freelance & Client",
+      badge: "Client Freelance",
+      featured: true,
+      tagline: "Dynamic academic research portfolio & publication CMS",
+      description: "High-performance, fully dynamic academic research portfolio and content management system designed to showcase scientific publications, global experience, and research impact, powered by custom MERN architecture.",
+      image: "./src/assets/proj_waseem.jpg",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Vite", "JWT", "Axios"],
+      highlights: [
+        "Custom-built Admin Control Panel for zero-code, real-time content updates",
+        "Secure JWT-based authentication system for administrative access",
+        "Fully dynamic, database-driven frontend powered by MongoDB and Express REST APIs",
+        "Sub-second filtering by conference, citation counters, and publication dates"
+      ],
+      liveUrl: "https://waseemiqbalresearchhub.vercel.app/",
+      githubUrl: "https://github.com/haideralimangwal786-ctrl",
+      metrics: "🔬 Global Research CMS | Real-time Admin"
+    },
+    {
       id: "homedify-marketplace",
       title: "Homedify – AI Powered Marketplace",
-      category: "Full-Stack & AI",
+      category: "Full-Stack MERN",
+      badge: "Full-Stack MERN",
       featured: true,
       tagline: "Full-stack marketplace connecting buyers & sellers with AI verification & escrow",
       description: "A full-stack marketplace platform featuring AI-based verification, secure authentication, role-based dashboards, and modern web architecture. This platform connects buyers and sellers seamlessly while ensuring maximum security.",
       image: "./src/assets/homedify.png",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT Auth"],
       highlights: [
         "AI Verification System for user profiles, identity & listing authenticity",
         "Role-Based User Dashboards with secure JWT-based access controls",
@@ -97,33 +118,55 @@ export const portfolioData = {
       metrics: "⚡ AI Verified Platform | Escrow Protected"
     },
     {
-      id: "dr-waseem-iqbal-hub",
-      title: "Dr. Waseem Iqbal Research Hub",
-      category: "Full-Stack & AI",
+      id: "haiderweb-portfolio-cms",
+      title: "Dynamic Developer Portfolio & CMS",
+      category: "Full-Stack MERN",
+      badge: "Production CMS",
       featured: true,
-      tagline: "Dynamic academic research portfolio & CMS powered by custom MERN architecture",
-      description: "High-performance, fully dynamic academic research portfolio and content management system designed to showcase scientific publications, global experience, and research impact, powered by a custom MERN architecture.",
-      image: "./src/assets/proj_waseem.jpg",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Vite", "JWT", "Axios"],
+      tagline: "Personal portfolio with custom-built CMS dashboard for zero-code updates",
+      description: "A premium, fully responsive personal portfolio website featuring a custom-built Content Management System (CMS). Designed with modern aesthetics and glassmorphism, it allows seamless management of projects, skills, services, and client testimonials.",
+      image: "./src/assets/proj_haiderweb.jpg",
+      tech: ["MongoDB Atlas", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Vite", "Mongoose"],
       highlights: [
-        "Custom-built Admin Control Panel for zero-code, real-time content updates",
-        "Secure JWT-based authentication system for administrative access",
-        "Fully dynamic, database-driven frontend powered by MongoDB and Express REST APIs",
-        "Premium glassmorphic UI design with smooth micro-animations and optimistic updates"
+        "Custom Secure Admin Dashboard for complete content & project management",
+        "Dynamic showcase of Projects, Skills, and Services from MongoDB database",
+        "Integrated Contact Form with a dedicated Messages Inbox in the admin panel",
+        "Real-time content updates without requiring a code redeploy"
       ],
-      liveUrl: "https://waseemiqbalresearchhub.vercel.app/",
+      liveUrl: "https://haiderweb-alpha.vercel.app/",
+      githubUrl: "https://github.com/haideralimangwal786-ctrl/haiderweb",
+      metrics: "🚀 Production CMS | Real-time Database"
+    },
+    {
+      id: "uoc-academic-portal",
+      title: "UOC Academic Portal & Student Management",
+      category: "University Capstone",
+      badge: "University Project",
+      featured: true,
+      tagline: "BSCS Academic capstone system for course registration & student records",
+      description: "Engineered as an academic capstone web system at University of Chakwal. Streamlines course registration, GPA/CGPA calculations, attendance monitoring, and administrative record management for university departments.",
+      image: "./src/assets/uoc-campus.jpg?v=2",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "REST API"],
+      highlights: [
+        "Automated GPA/CGPA computation engine based on semester credit hours and grading scales",
+        "Student and faculty portals with role-differentiated views and course enrollments",
+        "Relational-style document modeling in MongoDB for student academic histories",
+        "Departmental report generation and clean, accessible user interface"
+      ],
+      liveUrl: "",
       githubUrl: "https://github.com/haideralimangwal786-ctrl",
-      metrics: "🔬 Global Research CMS | Real-time Admin"
+      metrics: "🎓 University Capstone | Academic Management"
     },
     {
       id: "premium-naat-player",
-      title: "Premium Naat Player",
-      category: "App Development",
+      title: "Premium Naat Audio Streaming Player",
+      category: "React & Web Apps",
+      badge: "Media Web App",
       featured: true,
       tagline: "Multi-user audio streaming platform with IndexedDB offline storage & visualizer",
       description: "Developed a multi-user audio streaming platform featuring advanced audio controls, custom audio visualizers, and offline playback capabilities for seamless listening experiences.",
       image: "./src/assets/naatplayer.png",
-      tech: ["HTML5", "CSS3", "JavaScript", "IndexedDB", "Web Audio API"],
+      tech: ["HTML5", "CSS3", "JavaScript", "IndexedDB", "Web Audio API", "Tailwind CSS"],
       highlights: [
         "Engineered an offline playback system utilizing IndexedDB storage without internet",
         "Custom interactive audio visualizers and responsive playback controls",
@@ -135,90 +178,44 @@ export const portfolioData = {
       metrics: "🎵 Offline Storage | Web Audio API"
     },
     {
-      id: "wallnest-app",
-      title: "WallNest — HD Wallpaper App",
-      category: "App Development",
+      id: "dsa-algorithm-visualizer",
+      title: "Interactive DSA Algorithm Visualizer",
+      category: "University Capstone",
+      badge: "CS Lab Project",
       featured: false,
-      tagline: "High-performance mobile wallpaper application powered by the Pexels API",
-      description: "Engineered a high-performance cross-platform wallpaper application powered by the Pexels API with search, categories, favorites, and wallpaper setting functionality.",
+      tagline: "Educational React platform visualizing sorting algorithms & graph paths",
+      description: "An interactive computer science educational application built during BSCS studies at UOC to visualize step-by-step executions of sorting algorithms (Merge, Quick, Bubble) and graph pathfinding (Dijkstra, BFS/DFS) with speed and array controls.",
+      image: "./src/assets/kksc-campus.jpg?v=2",
+      tech: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Algorithms", "Canvas API"],
+      highlights: [
+        "Step-by-step visual animation of sorting algorithms with color-coded comparison pointers",
+        "Custom speed throttling and dynamic array size generation for performance benchmarking",
+        "Time and space complexity cheat-sheets and mathematical breakdowns for each algorithm",
+        "Modular React hook architecture decoupling algorithm state from UI rendering"
+      ],
+      liveUrl: "",
+      githubUrl: "https://github.com/haideralimangwal786-ctrl",
+      metrics: "💡 CS Educational Tool | Real-time Canvas"
+    },
+    {
+      id: "wallnest-app",
+      title: "WallNest — HD Wallpaper & Media Engine",
+      category: "React & Web Apps",
+      badge: "REST API App",
+      featured: false,
+      tagline: "High-performance media discovery app with API integration and responsive caching",
+      description: "Engineered a high-performance cross-platform wallpaper application connected to the Pexels REST API with search, categories, favorites, and wallpaper setting functionality.",
       image: "./src/assets/wallnest.jpg",
-      tech: ["Flutter", "Dart", "Pexels API", "Provider", "REST APIs"],
+      tech: ["React.js", "Pexels REST API", "Tailwind CSS", "IntersectionObserver", "REST APIs"],
       highlights: [
         "Infinite scrolling and dynamic category filtering for instant content discovery",
-        "Robust state management using Provider to handle favorites and downloads",
+        "Robust state management to handle favorites and downloads",
         "Optimized for high performance, delivering instant HD images across diverse devices",
         "One-tap wallpaper apply and high-resolution background caching"
       ],
       liveUrl: "",
       githubUrl: "https://github.com/haideralimangwal786-ctrl",
-      metrics: "📱 Cross-Platform | High-Res Wallpapers"
-    },
-    {
-      id: "haiderweb-portfolio-cms",
-      title: "Dynamic Developer Portfolio & CMS",
-      category: "Full-Stack & AI",
-      featured: false,
-      tagline: "Personal portfolio with custom-built CMS dashboard for zero-code updates",
-      description: "A premium, fully responsive personal portfolio website featuring a custom-built Content Management System (CMS). Designed with modern aesthetics and glassmorphism, it allows seamless management of projects, skills, services, and client testimonials.",
-      image: "./src/assets/proj_haiderweb.jpg",
-      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Vite", "Mongoose"],
-      highlights: [
-        "Custom Secure Admin Dashboard for complete content & project management",
-        "Dynamic showcase of Projects, Skills, and Services from MongoDB database",
-        "Integrated Contact Form with a dedicated Messages Inbox in the admin panel",
-        "Real-time content updates without requiring a code redeploy"
-      ],
-      liveUrl: "https://haiderweb-alpha.vercel.app/",
-      githubUrl: "https://github.com/haideralimangwal786-ctrl/haiderweb",
-      metrics: "🚀 Production CMS | Real-time Database"
-    }
-  ],
-
-  experience: [
-    {
-      id: "exp-1",
-      role: "Lead Full-Stack & MERN Architect",
-      company: "Apex Digital Solutions",
-      period: "2023 — Present",
-      type: "Full-Time",
-      badge: "Active Leadership",
-      description: "Directing the end-to-end full-stack MERN architecture, AI model integration pipelines, and high-conversion headless storefronts for enterprise clients.",
-      achievements: [
-        "Architected enterprise MERN applications handling over 250k+ daily requests with sub-100ms response times",
-        "Integrated custom AI models and LLM APIs for automated content generation and dynamic customer recommendation engines",
-        "Orchestrated reusable UI design systems and secure JWT-based microservices"
-      ],
-      skills: ["MERN Stack", "React.js", "Node.js", "MongoDB", "AI Models", "Express.js", "Tailwind CSS"]
-    },
-    {
-      id: "exp-2",
-      role: "AI & E-Commerce Web Developer",
-      company: "Vortex Interactive Lab",
-      period: "2022 — 2023",
-      type: "Full-Time",
-      badge: "Client SaaS & CRO",
-      description: "Engineered high-converting Shopify stores, bespoke WordPress/WooCommerce themes, and smart SaaS web applications featuring dynamic animations.",
-      achievements: [
-        "Developed 15+ custom Shopify stores & WordPress websites resulting in an average 38% increase in checkout conversions",
-        "Engineered real-time features using WebSockets and integrated Stripe/PayPal 1-click payment workflows",
-        "Collaborated with cross-functional design teams translating complex Figma specifications into responsive web code"
-      ],
-      skills: ["Shopify Liquid", "WordPress", "React", "Node.js", "WooCommerce", "Stripe API", "GSAP"]
-    },
-    {
-      id: "exp-3",
-      role: "Full-Stack Engineer & Digital Solutions Freelancer",
-      company: "Upwork & Global Clients",
-      period: "2021 — 2022",
-      type: "Contract / Remote",
-      badge: "100% Job Success",
-      description: "Delivered tailor-made web applications, e-commerce storefronts, Canva visual branding assets, and advanced Excel analytics dashboards for international clients.",
-      achievements: [
-        "Shipped 25+ completed projects with 100% 5-star client satisfaction and on-time milestones",
-        "Built automated Microsoft Excel financial modeling spreadsheets and KPI analytics dashboards",
-        "Designed high-impact Canva Pro marketing pitch decks, social media creatives, and digital brand identities"
-      ],
-      skills: ["Full-Stack Dev", "WordPress", "Shopify", "Canva Pro", "Advanced Excel", "Git & GitHub"]
+      metrics: "📱 REST API Integration | High-Res Wallpapers"
     }
   ],
 

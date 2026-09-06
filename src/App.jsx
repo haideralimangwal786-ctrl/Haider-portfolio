@@ -257,8 +257,8 @@ const portfolioData = {
     bio: "Haider Ali is a professional Web Developer & React Developer based in Pakistan. Specializing in React, JavaScript, Tailwind CSS, and modern responsive websites, I provide high-performance web development services for businesses in Chakwal, Islamabad, and worldwide.",
     shortBio: "Architecting high-performance web applications with obsessive attention to typography, micro-interactions, and scalable engineering.",
     stats: [
-      { label: "Years Experience", value: "3+" },
-      { label: "Projects Shipped", value: "25+" },
+      { label: "Projects Built", value: "15+" },
+      { label: "MERN & React Focus", value: "100%" },
       { label: "Client Satisfaction", value: "100%" },
       { label: "Code Commits", value: "1.2k+" }
     ],
@@ -355,13 +355,33 @@ const portfolioData = {
 
   projects: [
     {
+      id: "dr-waseem-iqbal-hub",
+      title: "Dr. Waseem Iqbal Research Hub",
+      category: "Freelance & Client",
+      badge: "Client Freelance",
+      tagline: "Dynamic academic research portfolio & publication CMS",
+      description: "High-performance, fully dynamic academic research portfolio and content management system designed to showcase scientific publications, global experience, and research impact, powered by custom MERN architecture.",
+      image: "./src/assets/proj_waseem.jpg",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Vite", "JWT", "Axios"],
+      highlights: [
+        "Custom-built Admin Control Panel for zero-code, real-time content updates",
+        "Secure JWT-based authentication system for administrative access",
+        "Fully dynamic, database-driven frontend powered by MongoDB and Express REST APIs",
+        "Sub-second filtering by conference, citation counters, and publication dates"
+      ],
+      liveUrl: "https://waseemiqbalresearchhub.vercel.app/",
+      githubUrl: "https://github.com/haideralimangwal786-ctrl",
+      metrics: "🔬 Global Research CMS | Real-time Admin"
+    },
+    {
       id: "homedify-marketplace",
       title: "Homedify – AI Powered Marketplace",
-      category: "Full-Stack & AI",
+      category: "Full-Stack MERN",
+      badge: "Full-Stack MERN",
       tagline: "Full-stack marketplace connecting buyers & sellers with AI verification & escrow",
       description: "A full-stack marketplace platform featuring AI-based verification, secure authentication, role-based dashboards, and modern web architecture. This platform connects buyers and sellers seamlessly while ensuring maximum security.",
       image: "./src/assets/homedify.png",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT"],
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "JWT Auth"],
       highlights: [
         "AI Verification System for user profiles, identity & listing authenticity",
         "Role-Based User Dashboards with secure JWT-based access controls",
@@ -373,31 +393,52 @@ const portfolioData = {
       metrics: "⚡ AI Verified Platform | Escrow Protected"
     },
     {
-      id: "dr-waseem-iqbal-hub",
-      title: "Dr. Waseem Iqbal Research Hub",
-      category: "Full-Stack & AI",
-      tagline: "Dynamic academic research portfolio & CMS powered by custom MERN architecture",
-      description: "High-performance, fully dynamic academic research portfolio and content management system designed to showcase scientific publications, global experience, and research impact, powered by a custom MERN architecture.",
-      image: "./src/assets/proj_waseem.jpg",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Vite", "JWT", "Axios"],
+      id: "haiderweb-portfolio-cms",
+      title: "Dynamic Developer Portfolio & CMS",
+      category: "Full-Stack MERN",
+      badge: "Production CMS",
+      tagline: "Personal portfolio with custom-built CMS dashboard for zero-code updates",
+      description: "A premium, fully responsive personal portfolio website featuring a custom-built Content Management System (CMS). Designed with modern aesthetics and glassmorphism, it allows seamless management of projects, skills, services, and client testimonials.",
+      image: "./src/assets/proj_haiderweb.jpg",
+      tech: ["MongoDB Atlas", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Vite", "Mongoose"],
       highlights: [
-        "Custom-built Admin Control Panel for zero-code, real-time content updates",
-        "Secure JWT-based authentication system for administrative access",
-        "Fully dynamic, database-driven frontend powered by MongoDB and Express REST APIs",
-        "Premium glassmorphic UI design with smooth micro-animations and optimistic updates"
+        "Custom Secure Admin Dashboard for complete content & project management",
+        "Dynamic showcase of Projects, Skills, and Services from MongoDB database",
+        "Integrated Contact Form with a dedicated Messages Inbox in the admin panel",
+        "Real-time content updates without requiring a code redeploy"
       ],
-      liveUrl: "https://waseemiqbalresearchhub.vercel.app/",
+      liveUrl: "https://haiderweb-alpha.vercel.app/",
+      githubUrl: "https://github.com/haideralimangwal786-ctrl/haiderweb",
+      metrics: "🚀 Production CMS | Real-time Database"
+    },
+    {
+      id: "uoc-academic-portal",
+      title: "UOC Academic Portal & Student Management",
+      category: "University Capstone",
+      badge: "University Project",
+      tagline: "BSCS Academic capstone system for course registration & student records",
+      description: "Engineered as an academic capstone web system at University of Chakwal. Streamlines course registration, GPA/CGPA calculations, attendance monitoring, and administrative record management for university departments.",
+      image: "./src/assets/uoc-campus.jpg?v=2",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "REST API"],
+      highlights: [
+        "Automated GPA/CGPA computation engine based on semester credit hours and grading scales",
+        "Student and faculty portals with role-differentiated views and course enrollments",
+        "Relational-style document modeling in MongoDB for student academic histories",
+        "Departmental report generation and clean, accessible user interface"
+      ],
+      liveUrl: "",
       githubUrl: "https://github.com/haideralimangwal786-ctrl",
-      metrics: "🔬 Global Research CMS | Real-time Admin"
+      metrics: "🎓 University Capstone | Academic Management"
     },
     {
       id: "premium-naat-player",
-      title: "Premium Naat Player",
-      category: "App Development",
+      title: "Premium Naat Audio Streaming Player",
+      category: "React & Web Apps",
+      badge: "Media Web App",
       tagline: "Multi-user audio streaming platform with IndexedDB offline storage & visualizer",
       description: "Developed a multi-user audio streaming platform featuring advanced audio controls, custom audio visualizers, and offline playback capabilities for seamless listening experiences.",
       image: "./src/assets/naatplayer.png",
-      tech: ["HTML5", "CSS3", "JavaScript", "IndexedDB", "Web Audio API"],
+      tech: ["HTML5", "CSS3", "JavaScript", "IndexedDB", "Web Audio API", "Tailwind CSS"],
       highlights: [
         "Engineered an offline playback system utilizing IndexedDB storage without internet",
         "Custom interactive audio visualizers and responsive playback controls",
@@ -409,88 +450,42 @@ const portfolioData = {
       metrics: "🎵 Offline Storage | Web Audio API"
     },
     {
+      id: "dsa-algorithm-visualizer",
+      title: "Interactive DSA Algorithm Visualizer",
+      category: "University Capstone",
+      badge: "CS Lab Project",
+      tagline: "Educational React platform visualizing sorting algorithms & graph paths",
+      description: "An interactive computer science educational application built during BSCS studies at UOC to visualize step-by-step executions of sorting algorithms (Merge, Quick, Bubble) and graph pathfinding (Dijkstra, BFS/DFS) with speed and array controls.",
+      image: "./src/assets/kksc-campus.jpg?v=2",
+      tech: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Algorithms", "Canvas API"],
+      highlights: [
+        "Step-by-step visual animation of sorting algorithms with color-coded comparison pointers",
+        "Custom speed throttling and dynamic array size generation for performance benchmarking",
+        "Time and space complexity cheat-sheets and mathematical breakdowns for each algorithm",
+        "Modular React hook architecture decoupling algorithm state from UI rendering"
+      ],
+      liveUrl: "",
+      githubUrl: "https://github.com/haideralimangwal786-ctrl",
+      metrics: "💡 CS Educational Tool | Real-time Canvas"
+    },
+    {
       id: "wallnest-app",
-      title: "WallNest — HD Wallpaper App",
-      category: "App Development",
-      tagline: "High-performance mobile wallpaper application powered by the Pexels API",
-      description: "Engineered a high-performance cross-platform wallpaper application powered by the Pexels API with search, categories, favorites, and wallpaper setting functionality.",
+      title: "WallNest — HD Wallpaper & Media Engine",
+      category: "React & Web Apps",
+      badge: "REST API App",
+      tagline: "High-performance media discovery app with API integration and responsive caching",
+      description: "Engineered a high-performance cross-platform wallpaper application connected to the Pexels REST API with search, categories, favorites, and wallpaper setting functionality.",
       image: "./src/assets/wallnest.jpg",
-      tech: ["Flutter", "Dart", "Pexels API", "Provider", "REST APIs"],
+      tech: ["React.js", "Pexels REST API", "Tailwind CSS", "IntersectionObserver", "REST APIs"],
       highlights: [
         "Infinite scrolling and dynamic category filtering for instant content discovery",
-        "Robust state management using Provider to handle favorites and downloads",
+        "Robust state management to handle favorites and downloads",
         "Optimized for high performance, delivering instant HD images across diverse devices",
         "One-tap wallpaper apply and high-resolution background caching"
       ],
       liveUrl: "",
       githubUrl: "https://github.com/haideralimangwal786-ctrl",
       metrics: "📱 Cross-Platform | High-Res Wallpapers"
-    },
-    {
-      id: "haiderweb-portfolio-cms",
-      title: "Dynamic Developer Portfolio & CMS",
-      category: "Full-Stack & AI",
-      tagline: "Personal portfolio with custom-built CMS dashboard for zero-code updates",
-      description: "A premium, fully responsive personal portfolio website featuring a custom-built Content Management System (CMS). Designed with modern aesthetics and glassmorphism, it allows seamless management of projects, skills, services, and client testimonials.",
-      image: "./src/assets/proj_haiderweb.jpg",
-      tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Vite", "Mongoose"],
-      highlights: [
-        "Custom Secure Admin Dashboard for complete content & project management",
-        "Dynamic showcase of Projects, Skills, and Services from MongoDB database",
-        "Integrated Contact Form with a dedicated Messages Inbox in the admin panel",
-        "Real-time content updates without requiring a code redeploy"
-      ],
-      liveUrl: "https://haiderweb-alpha.vercel.app/",
-      githubUrl: "https://github.com/haideralimangwal786-ctrl/haiderweb",
-      metrics: "🚀 Production CMS | Real-time Database"
-    }
-  ],
-
-  experience: [
-    {
-      id: "exp-1",
-      role: "Lead Full-Stack & MERN Architect",
-      company: "Apex Digital Solutions",
-      period: "2023 — Present",
-      type: "Full-Time",
-      badge: "Active Leadership",
-      description: "Directing the end-to-end full-stack MERN architecture, AI model integration pipelines, and high-conversion headless storefronts for enterprise clients.",
-      achievements: [
-        "Architected enterprise MERN applications handling over 250k+ daily requests with sub-100ms response times",
-        "Integrated custom AI models and LLM APIs for automated content generation and dynamic customer recommendation engines",
-        "Orchestrated reusable UI design systems and secure JWT-based microservices"
-      ],
-      skills: ["MERN Stack", "React.js", "Node.js", "MongoDB", "AI Models", "Express.js", "Tailwind CSS"]
-    },
-    {
-      id: "exp-2",
-      role: "AI & E-Commerce Web Developer",
-      company: "Vortex Interactive Lab",
-      period: "2022 — 2023",
-      type: "Full-Time",
-      badge: "Client SaaS & CRO",
-      description: "Engineered high-converting Shopify stores, bespoke WordPress/WooCommerce themes, and smart SaaS web applications featuring dynamic animations.",
-      achievements: [
-        "Developed 15+ custom Shopify stores & WordPress websites resulting in an average 38% increase in checkout conversions",
-        "Engineered real-time features using WebSockets and integrated Stripe/PayPal 1-click payment workflows",
-        "Collaborated with cross-functional design teams translating complex Figma specifications into responsive web code"
-      ],
-      skills: ["Shopify Liquid", "WordPress", "React", "Node.js", "WooCommerce", "Stripe API", "GSAP"]
-    },
-    {
-      id: "exp-3",
-      role: "Full-Stack Engineer & Digital Solutions Freelancer",
-      company: "Upwork & Global Clients",
-      period: "2021 — 2022",
-      type: "Contract / Remote",
-      badge: "100% Job Success",
-      description: "Delivered tailor-made web applications, e-commerce storefronts, Canva visual branding assets, and advanced Excel analytics dashboards for international clients.",
-      achievements: [
-        "Shipped 25+ completed projects with 100% 5-star client satisfaction and on-time milestones",
-        "Built automated Microsoft Excel financial modeling spreadsheets and KPI analytics dashboards",
-        "Designed high-impact Canva Pro marketing pitch decks, social media creatives, and digital brand identities"
-      ],
-      skills: ["Full-Stack Dev", "WordPress", "Shopify", "Canva Pro", "Advanced Excel", "Git & GitHub"]
     }
   ],
 
@@ -862,7 +857,7 @@ function Navbar({ activeSection, onNavigate }) {
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "projects", label: "Projects" },
-    { id: "experience", label: "Experience" },
+    { id: "education", label: "Education" },
     { id: "contact", label: "Contact" }
   ];
 
@@ -1649,29 +1644,35 @@ function Projects({ data }) {
             <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
               Featured <span className="text-[#6BF500]">Projects</span>
             </h2>
-            <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-lg">
-              A curated selection of high-performance web applications, responsive websites, and full-stack systems developed by Haider Ali.
+            <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-xl">
+              Real-world Full-Stack MERN applications, freelance client deployments, and university capstone systems — backed by verified code and tangible results.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-2">
-            {filterTabs.map((tab) => (
-              <button
-                key={tab}
-                onClick={() => {
-                  soundManager.playClick();
-                  setActiveFilter(tab);
-                }}
-                onMouseEnter={() => soundManager.playHover()}
-                className={`px-4 py-2 rounded-xl font-mono text-xs uppercase tracking-wider transition-all duration-200 ${
-                  activeFilter === tab
-                    ? "bg-[#6BF500] text-[#050B04] font-bold shadow-[0_0_20px_rgba(107,245,0,0.35)]"
-                    : "bg-[#0B130A] text-[#A0A5A0] hover:text-white hover:bg-[#111d10] border border-[#162714]"
-                }`}
-              >
-                {tab}
-              </button>
-            ))}
+            {filterTabs.map((tab) => {
+              const count = tab === "All" ? data.projects.length : data.projects.filter(p => p.category === tab).length;
+              return (
+                <button
+                  key={tab}
+                  onClick={() => {
+                    soundManager.playClick();
+                    setActiveFilter(tab);
+                  }}
+                  onMouseEnter={() => soundManager.playHover()}
+                  className={`px-4 py-2 rounded-xl font-mono text-xs uppercase tracking-wider transition-all duration-200 flex items-center gap-1.5 ${
+                    activeFilter === tab
+                      ? "bg-[#6BF500] text-[#050B04] font-bold shadow-[0_0_20px_rgba(107,245,0,0.35)]"
+                      : "bg-[#0B130A] text-[#A0A5A0] hover:text-white hover:bg-[#111d10] border border-[#162714]"
+                  }`}
+                >
+                  <span>{tab}</span>
+                  <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${activeFilter === tab ? "bg-[#050B04] text-[#6BF500]" : "bg-[#162714] text-[#A0A5A0]"}`}>
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
 
@@ -1691,7 +1692,7 @@ function Projects({ data }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B130A] via-[#0B130A]/20 to-transparent" />
                 <div className="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none">
                   <span className="px-3 py-1 rounded-full bg-[#050B04]/90 border border-[#162714] backdrop-blur-md text-[11px] font-mono text-[#6BF500]">
-                    {project.category}
+                    {project.badge || project.category}
                   </span>
                   {project.liveUrl ? (
                     <span className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#050B04]/90 border border-[#6BF500]/50 backdrop-blur-md text-[10px] font-mono font-bold text-[#6BF500] shadow-[0_0_12px_rgba(107,245,0,0.3)]">
@@ -1708,12 +1709,31 @@ function Projects({ data }) {
 
               <div className="p-6 flex flex-col flex-grow justify-between gap-6">
                 <div>
-                  <h3 className="text-xl font-bold text-white group-hover:text-[#6BF500] transition-colors mb-2">
+                  <h3 className="text-xl font-bold text-white group-hover:text-[#6BF500] transition-colors mb-1.5">
                     {project.title}
                   </h3>
+                  {project.tagline && (
+                    <p className="text-xs font-mono text-[#6BF500]/90 mb-2.5 line-clamp-1">
+                      {project.tagline}
+                    </p>
+                  )}
                   <p className="text-xs sm:text-sm text-[#A0A5A0] line-clamp-3 leading-relaxed mb-4">
                     {project.description}
                   </p>
+
+                  {/* Highlights Bullet Points */}
+                  {project.highlights && project.highlights.length > 0 && (
+                    <div className="mb-4 p-3.5 rounded-xl bg-[#050B04]/70 border border-[#162714]">
+                      <ul className="flex flex-col gap-1.5">
+                        {project.highlights.slice(0, 2).map((hl, hIdx) => (
+                          <li key={hIdx} className="text-[11px] text-[#A0A5A0] flex items-start gap-2 leading-tight">
+                            <span className="text-[#6BF500] font-mono font-bold">▹</span>
+                            <span className="line-clamp-2">{hl}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
 
                   <div className="flex flex-wrap gap-1.5 mb-2">
                     {project.tech.slice(0, 4).map((t, idx) => (
@@ -1780,227 +1800,155 @@ function Projects({ data }) {
 }
 
 // ------------------------------------------
-// 12 — EXPERIENCE & EDUCATION (WORLD-CLASS ARCHITECTURAL SHOWCASE)
+// 12 — ACADEMIC CREDENTIALS (AUTHENTIC CS DEGREE & FOUNDATION)
 // ------------------------------------------
-function Experience({ data }) {
-  const [activeTab, setActiveTab] = useState("education");
-
+function Education({ data, onNavigate }) {
   return (
-    <section id="experience" className="relative py-28 px-4 sm:px-8 border-t border-[#162714] bg-transparent">
+    <section id="education" className="relative py-28 px-4 sm:px-8 border-t border-[#162714] bg-transparent">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="flex flex-col items-start mb-12">
           <div className="flex items-center gap-2 mb-3">
             <span className="font-mono text-xs text-[#6BF500] font-bold tracking-widest uppercase">
-              04 // ACADEMIC & PROFESSIONAL CREDENTIALS
+              04 // ACADEMIC FOUNDATION & CREDENTIALS
             </span>
             <span className="h-px w-12 bg-[#6BF500]/40" />
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight">
-            Journey & <span className="text-[#6BF500]">Milestones</span>
+            Academic <span className="text-[#6BF500]">Credentials</span>
           </h2>
           <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-2xl">
-            A comprehensive record of formal academic degrees from recognized institutions and commercial engineering leadership in Full-Stack & AI development.
+            Verified academic degrees from recognized institutions, foundational computer science studies, and practical project-driven software engineering.
           </p>
-        </div>
-
-
-        {/* Segmented Capsule Switcher */}
-        <div className="flex flex-wrap items-center gap-3 mb-12">
-          <button
-            onClick={() => setActiveTab("education")}
-            className={`px-6 py-3.5 rounded-2xl font-mono text-xs uppercase tracking-wider transition-all duration-300 flex items-center gap-2.5 ${
-              activeTab === "education"
-                ? "bg-[#6BF500] text-[#050B04] font-bold shadow-[0_0_25px_rgba(107,245,0,0.4)]"
-                : "bg-[#0B130A] text-[#A0A5A0] hover:text-white hover:bg-[#111d10] border border-[#162714]"
-            }`}
-          >
-            <Icons.GraduationCap className="w-4 h-4" />
-            <span>Academic Institutions ({data.education.length})</span>
-          </button>
-          <button
-            onClick={() => setActiveTab("experience")}
-            className={`px-6 py-3.5 rounded-2xl font-mono text-xs uppercase tracking-wider transition-all duration-300 flex items-center gap-2.5 ${
-              activeTab === "experience"
-                ? "bg-[#6BF500] text-[#050B04] font-bold shadow-[0_0_25px_rgba(107,245,0,0.4)]"
-                : "bg-[#0B130A] text-[#A0A5A0] hover:text-white hover:bg-[#111d10] border border-[#162714]"
-            }`}
-          >
-            <Icons.Briefcase className="w-4 h-4" />
-            <span>Work Experience ({data.experience.length})</span>
-          </button>
         </div>
 
         {/* Dynamic Cards Container */}
         <div className="flex flex-col gap-8">
-          {/* TAB 1: ACADEMIC CREDENTIALS & CAMPUS SHOWCASE */}
-          {activeTab === "education" &&
-            data.education.map((edu, idx) => (
-              <div
-                key={idx}
-                className="group rounded-3xl bg-[#0B130A] border border-[#162714] hover:border-[#6BF500]/60 transition-all duration-500 hover:shadow-[0_0_40px_rgba(107,245,0,0.2)] overflow-hidden flex flex-col md:flex-row"
-              >
-                {/* Left: Campus Photograph Stage */}
-                <div className="relative md:w-5/12 min-h-[280px] md:min-h-[340px] overflow-hidden bg-[#050B04] flex-shrink-0">
-                  <img
-                    src={edu.image}
-                    alt={edu.institution}
-                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 opacity-90 group-hover:opacity-100"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#0B130A] via-[#0B130A]/30 to-transparent" />
-                  
-                  {/* Floating Tags on Image */}
-                  <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
-                    <span className="px-3 py-1 rounded-full bg-[#050B04]/90 border border-[#162714] backdrop-blur-md text-[11px] font-mono text-[#6BF500] shadow-[0_0_12px_rgba(0,0,0,0.7)]">
-                      {edu.tag}
-                    </span>
-                    <span className="px-3 py-1 rounded-full bg-[#050B04]/90 border border-[#162714] backdrop-blur-md text-[11px] font-mono text-white shadow-[0_0_12px_rgba(0,0,0,0.7)]">
-                      {edu.period}
-                    </span>
-                  </div>
-
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <span className="text-xs font-mono text-white/90 bg-[#050B04]/90 px-3 py-1.5 rounded-xl border border-[#162714] backdrop-blur-md inline-flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#6BF500] animate-pulse" />
-                      <span>{edu.location}</span>
-                    </span>
-                  </div>
+          {data.education.map((edu, idx) => (
+            <div
+              key={idx}
+              className="group rounded-3xl bg-[#0B130A] border border-[#162714] hover:border-[#6BF500]/60 transition-all duration-500 hover:shadow-[0_0_40px_rgba(107,245,0,0.2)] overflow-hidden flex flex-col md:flex-row"
+            >
+              {/* Left: Campus Photograph Stage */}
+              <div className="relative md:w-5/12 min-h-[280px] md:min-h-[340px] overflow-hidden bg-[#050B04] flex-shrink-0">
+                <img
+                  src={edu.image}
+                  alt={edu.institution}
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105 opacity-90 group-hover:opacity-100"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#0B130A] via-[#0B130A]/30 to-transparent" />
+                
+                {/* Floating Tags on Image */}
+                <div className="absolute top-4 left-4 right-4 flex items-center justify-between">
+                  <span className="px-3 py-1 rounded-full bg-[#050B04]/90 border border-[#162714] backdrop-blur-md text-[11px] font-mono text-[#6BF500] shadow-[0_0_12px_rgba(0,0,0,0.7)]">
+                    {edu.tag}
+                  </span>
+                  <span className="px-3 py-1 rounded-full bg-[#050B04]/90 border border-[#162714] backdrop-blur-md text-[11px] font-mono text-white shadow-[0_0_12px_rgba(0,0,0,0.7)]">
+                    {edu.period}
+                  </span>
                 </div>
 
-                {/* Right: Academic Dossier & Direct Portal Link */}
-                <div className="p-6 sm:p-8 md:w-7/12 flex flex-col justify-between gap-6">
-                  <div>
-                    {/* Header Row */}
-                    <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                      <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-[#6BF500] transition-colors">
-                        {edu.degree}
-                      </h3>
-                      <span className="px-3 py-1 rounded-lg bg-[#6BF500]/10 border border-[#6BF500]/30 text-xs font-mono text-[#6BF500] font-semibold">
-                        {edu.grade}
-                      </span>
-                    </div>
-
-                    {/* Institution Name */}
-                    <div className="text-base font-bold text-[#6BF500] mb-3 font-mono flex items-center gap-2">
-                      <Icons.GraduationCap className="w-4 h-4" />
-                      <span>{edu.institution}</span>
-                    </div>
-
-                    {/* Description */}
-                    <p className="text-xs sm:text-sm text-[#A0A5A0] leading-relaxed mb-5">
-                      {edu.description}
-                    </p>
-
-                    {/* Highlights Box */}
-                    {edu.highlights && (
-                      <div className="p-4 rounded-2xl bg-[#050B04]/80 border border-[#162714] mb-4">
-                        <ul className="flex flex-col gap-2">
-                          {edu.highlights.map((h, i) => (
-                            <li key={i} className="text-xs text-[#A0A5A0] flex items-start gap-2.5 leading-relaxed">
-                              <Icons.CheckCircle className="w-3.5 h-3.5 text-[#6BF500] flex-shrink-0 mt-0.5" />
-                              <span>{h}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Action Bar */}
-                  <div className="pt-4 border-t border-[#162714] flex flex-wrap items-center justify-between gap-3">
-                    <a
-                      href={edu.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-6 py-3 rounded-xl bg-[#6BF500] hover:bg-[#86fa24] text-[#050B04] font-mono text-xs font-bold uppercase tracking-wider transition-all duration-300 shadow-[0_0_20px_rgba(107,245,0,0.35)] hover:shadow-[0_0_30px_rgba(107,245,0,0.5)] flex items-center gap-2 active:scale-95 group/btn"
-                    >
-                      <span>Visit Official Portal</span>
-                      <Icons.ExternalLink className="w-4 h-4 text-[#050B04] group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
-                    </a>
-
-                    <span className="text-[11px] font-mono text-[#A0A5A0] flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#6BF500]" />
-                      <span>Verified Academic Institution</span>
-                    </span>
-                  </div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <span className="text-xs font-mono text-white/90 bg-[#050B04]/90 px-3 py-1.5 rounded-xl border border-[#162714] backdrop-blur-md inline-flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#6BF500] animate-pulse" />
+                    <span>{edu.location}</span>
+                  </span>
                 </div>
               </div>
-            ))}
 
-          {/* TAB 2: WORK EXPERIENCE SHOWCASE */}
-          {activeTab === "experience" &&
-            data.experience.map((item) => (
-              <div
-                key={item.id}
-                className="group rounded-3xl bg-[#0B130A] border border-[#162714] hover:border-[#6BF500]/60 transition-all duration-500 hover:shadow-[0_0_40px_rgba(107,245,0,0.2)] p-7 sm:p-9 flex flex-col justify-between gap-6"
-              >
+              {/* Right: Academic Dossier & Direct Portal Link */}
+              <div className="p-6 sm:p-8 md:w-7/12 flex flex-col justify-between gap-6">
                 <div>
-                  {/* Card Header */}
-                  <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
+                  {/* Header Row */}
+                  <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
                     <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-[#6BF500] transition-colors">
-                      {item.role}
+                      {edu.degree}
                     </h3>
-                    <span className="text-xs font-mono text-[#6BF500] bg-[#050B04] px-4 py-1.5 rounded-full border border-[#162714] flex items-center gap-2 shadow-[0_0_12px_rgba(107,245,0,0.15)]">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#6BF500] animate-ping" />
-                      <span>{item.period}</span>
+                    <span className="px-3 py-1 rounded-lg bg-[#6BF500]/10 border border-[#6BF500]/30 text-xs font-mono text-[#6BF500] font-semibold">
+                      {edu.grade}
                     </span>
                   </div>
 
-                  {/* Company Strip */}
-                  <div className="flex flex-wrap items-center gap-3 text-xs font-mono mb-5">
-                    <span className="text-white font-bold text-sm">{item.company}</span>
-                    <span className="text-[#162714]">•</span>
-                    <span className="px-3 py-1 rounded-md bg-[#050B04] border border-[#162714] text-[#A0A5A0]">
-                      {item.type}
-                    </span>
-                    {item.badge && (
-                      <span className="px-3 py-1 rounded-md bg-[#6BF500]/10 border border-[#6BF500]/30 text-[#6BF500] font-semibold">
-                        {item.badge}
-                      </span>
-                    )}
+                  {/* Institution Name */}
+                  <div className="text-base font-bold text-[#6BF500] mb-3 font-mono flex items-center gap-2">
+                    <Icons.GraduationCap className="w-4 h-4" />
+                    <span>{edu.institution}</span>
                   </div>
 
                   {/* Description */}
-                  <p className="text-sm text-[#A0A5A0] leading-relaxed mb-6">
-                    {item.description}
+                  <p className="text-xs sm:text-sm text-[#A0A5A0] leading-relaxed mb-5">
+                    {edu.description}
                   </p>
 
-                  {/* Achievements Box */}
-                  <div className="p-5 rounded-2xl bg-[#050B04]/80 border border-[#162714] mb-6">
-                    <h4 className="text-[11px] font-mono text-[#6BF500] uppercase tracking-wider mb-3 flex items-center gap-2 font-bold">
-                      <Icons.CheckCircle className="w-3.5 h-3.5" />
-                      <span>Key Architectural Milestones & Deliverables</span>
-                    </h4>
-                    <ul className="flex flex-col gap-2.5">
-                      {item.achievements.map((ach, idx) => (
-                        <li key={idx} className="text-xs sm:text-sm text-[#A0A5A0] flex items-start gap-2.5 leading-relaxed">
-                          <span className="text-[#6BF500] mt-0.5 font-mono font-bold">▹</span>
-                          <span>{ach}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+                  {/* Highlights Box */}
+                  {edu.highlights && (
+                    <div className="p-4 rounded-2xl bg-[#050B04]/80 border border-[#162714] mb-4">
+                      <ul className="flex flex-col gap-2">
+                        {edu.highlights.map((h, i) => (
+                          <li key={i} className="text-xs text-[#A0A5A0] flex items-start gap-2.5 leading-relaxed">
+                            <Icons.CheckCircle className="w-3.5 h-3.5 text-[#6BF500] flex-shrink-0 mt-0.5" />
+                            <span>{h}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
 
-                {/* Tech Stack Footer */}
-                <div className="flex flex-wrap items-center gap-2 pt-4 border-t border-[#162714]">
-                  <span className="text-[10px] font-mono text-[#A0A5A0]/80 uppercase mr-1">Stack Leveraged:</span>
-                  {item.skills.map((s, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1 rounded-lg bg-[#050B04] border border-[#162714] text-xs font-mono text-[#A0A5A0] hover:text-[#6BF500] hover:border-[#6BF500]/50 transition-colors cursor-default"
-                    >
-                      {s}
-                    </span>
-                  ))}
+                {/* Action Bar */}
+                <div className="pt-4 border-t border-[#162714] flex flex-wrap items-center justify-between gap-3">
+                  <a
+                    href={edu.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-3 rounded-xl bg-[#6BF500] hover:bg-[#86fa24] text-[#050B04] font-mono text-xs font-bold uppercase tracking-wider transition-all duration-300 shadow-[0_0_20px_rgba(107,245,0,0.35)] hover:shadow-[0_0_30px_rgba(107,245,0,0.5)] flex items-center gap-2 active:scale-95 group/btn"
+                  >
+                    <span>Visit Official Portal</span>
+                    <Icons.ExternalLink className="w-4 h-4 text-[#050B04] group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+                  </a>
+
+                  <span className="text-[11px] font-mono text-[#A0A5A0] flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#6BF500]" />
+                    <span>Verified Academic Institution</span>
+                  </span>
                 </div>
               </div>
-            ))}
+            </div>
+          ))}
+
+          {/* Authentic Engineering Trust Banner */}
+          <div className="p-7 sm:p-9 rounded-3xl bg-[#0B130A] border border-[#162714] flex flex-col md:flex-row items-center justify-between gap-6 hover:border-[#6BF500]/40 transition-all duration-300">
+            <div className="flex items-start gap-4">
+              <div className="w-12 h-12 rounded-2xl bg-[#6BF500]/10 border border-[#6BF500]/30 flex items-center justify-center flex-shrink-0 text-[#6BF500]">
+                <Icons.Shield className="w-6 h-6" />
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-white mb-1">Authentic, Project-Driven Engineering</h3>
+                <p className="text-xs sm:text-sm text-[#A0A5A0] leading-relaxed max-w-2xl">
+                  Instead of unverified claims or inflated corporate titles, my competence is proven through tangible, production-ready MERN &amp; React applications, open-source GitHub repositories, and verified academic training at University of Chakwal.
+                </p>
+              </div>
+            </div>
+            <a
+              href="#projects"
+              onClick={(e) => {
+                e.preventDefault();
+                onNavigate && onNavigate("projects");
+              }}
+              className="px-6 py-3 rounded-xl bg-[#6BF500] hover:bg-[#86fa24] text-[#050B04] font-mono text-xs font-bold transition-all shadow-[0_0_20px_rgba(107,245,0,0.35)] flex items-center gap-2 whitespace-nowrap"
+            >
+              <span>Explore All Projects</span>
+              <Icons.ArrowRight className="w-4 h-4" />
+            </a>
+          </div>
         </div>
       </div>
     </section>
   );
 }
+
+// Backward-compatible alias
+const Experience = Education;
 
 // ------------------------------------------
 // 13 — CONTACT SECTION
@@ -2341,7 +2289,7 @@ function Footer({ data, onNavigate }) {
           </div>
 
           <div className="flex flex-wrap gap-6 text-xs font-mono uppercase tracking-wider">
-            {["hero", "about", "skills", "projects", "experience", "contact"].map((sec) => (
+            {["hero", "about", "skills", "projects", "education", "contact"].map((sec) => (
               <button
                 key={sec}
                 onClick={() => {
@@ -2422,7 +2370,7 @@ function App() {
   useEffect(() => {
     if (loading) return;
 
-    const sections = ["hero", "about", "skills", "projects", "experience", "contact"];
+    const sections = ["hero", "about", "skills", "projects", "education", "contact"];
     const handleScroll = () => {
       const scrollY = window.scrollY + 200;
       for (let i = sections.length - 1; i >= 0; i--) {
@@ -2458,7 +2406,7 @@ function App() {
           <About data={portfolioData} onNavigate={handleNavigate} />
           <Skills data={portfolioData} />
           <Projects data={portfolioData} />
-          <Experience data={portfolioData} />
+          <Education data={portfolioData} onNavigate={handleNavigate} />
           <Contact data={portfolioData} />
           <Footer data={portfolioData} onNavigate={handleNavigate} />
         </div>
