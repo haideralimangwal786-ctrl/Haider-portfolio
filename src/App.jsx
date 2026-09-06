@@ -412,25 +412,6 @@ const portfolioData = {
       metrics: "🚀 Production CMS | Real-time Database"
     },
     {
-      id: "uoc-academic-portal",
-      title: "UOC Academic Portal & Student Management",
-      category: "University Capstone",
-      badge: "University Project",
-      tagline: "BSCS Academic capstone system for course registration & student records",
-      description: "Engineered as an academic capstone web system at University of Chakwal. Streamlines course registration, GPA/CGPA calculations, attendance monitoring, and administrative record management for university departments.",
-      image: "./src/assets/uoc-campus.jpg?v=2",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "REST API"],
-      highlights: [
-        "Automated GPA/CGPA computation engine based on semester credit hours and grading scales",
-        "Student and faculty portals with role-differentiated views and course enrollments",
-        "Relational-style document modeling in MongoDB for student academic histories",
-        "Departmental report generation and clean, accessible user interface"
-      ],
-      liveUrl: "",
-      githubUrl: "https://github.com/haideralimangwal786-ctrl",
-      metrics: "🎓 University Capstone | Academic Management"
-    },
-    {
       id: "premium-naat-player",
       title: "Premium Naat Audio Streaming Player",
       category: "React & Web Apps",
@@ -448,25 +429,6 @@ const portfolioData = {
       liveUrl: "https://naat-coral.vercel.app/",
       githubUrl: "https://github.com/haideralimangwal786-ctrl",
       metrics: "🎵 Offline Storage | Web Audio API"
-    },
-    {
-      id: "dsa-algorithm-visualizer",
-      title: "Interactive DSA Algorithm Visualizer",
-      category: "University Capstone",
-      badge: "CS Lab Project",
-      tagline: "Educational React platform visualizing sorting algorithms & graph paths",
-      description: "An interactive computer science educational application built during BSCS studies at UOC to visualize step-by-step executions of sorting algorithms (Merge, Quick, Bubble) and graph pathfinding (Dijkstra, BFS/DFS) with speed and array controls.",
-      image: "./src/assets/kksc-campus.jpg?v=2",
-      tech: ["React.js", "JavaScript (ES6+)", "Tailwind CSS", "Algorithms", "Canvas API"],
-      highlights: [
-        "Step-by-step visual animation of sorting algorithms with color-coded comparison pointers",
-        "Custom speed throttling and dynamic array size generation for performance benchmarking",
-        "Time and space complexity cheat-sheets and mathematical breakdowns for each algorithm",
-        "Modular React hook architecture decoupling algorithm state from UI rendering"
-      ],
-      liveUrl: "",
-      githubUrl: "https://github.com/haideralimangwal786-ctrl",
-      metrics: "💡 CS Educational Tool | Real-time Canvas"
     },
     {
       id: "wallnest-app",
@@ -502,7 +464,7 @@ const portfolioData = {
       description: "Focused on core Computer Science, Software Architecture, Full-Stack Web Development, Data Structures, Database Systems, and Intelligent Software Engineering.",
       highlights: [
         "Specialized in modern full-stack development, distributed databases & API engineering",
-        "Developed scalable capstone software applications with high academic performance"
+        "Developed scalable web software applications with high academic performance"
       ]
     },
     {
@@ -1645,7 +1607,7 @@ function Projects({ data }) {
               Featured <span className="text-[#6BF500]">Projects</span>
             </h2>
             <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-xl">
-              Real-world Full-Stack MERN applications, freelance client deployments, and university capstone systems — backed by verified code and tangible results.
+              Real-world Full-Stack MERN applications, freelance client deployments, and modern responsive web systems — backed by verified code and tangible results.
             </p>
           </div>
 

@@ -27,7 +27,7 @@ export default function Projects({ data }) {
               Featured <span className="text-[#6BF500]">Projects</span>
             </h2>
             <p className="text-[#A0A5A0] text-sm sm:text-base mt-2 max-w-xl">
-              Real-world Full-Stack MERN applications, freelance client deployments, and university capstone systems — backed by verified code and tangible results.
+              Real-world Full-Stack MERN applications, freelance client deployments, and modern responsive web systems — backed by verified code and tangible results.
             </p>
           </div>
 
