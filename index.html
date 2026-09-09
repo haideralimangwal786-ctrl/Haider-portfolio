@@ -265,23 +265,15 @@
 </head>
 <body class="bg-[#050B04] text-white antialiased selection:bg-neon-400 selection:text-[#050B04]">
   <div id="root"></div>
-  <div id="seo-fallback" style="max-width:900px;margin:0 auto;padding:24px;font-family:Arial,sans-serif">
-    <h1>Web Developer in Pakistan — Haider Ali</h1>
-    <p>I provide modern website development services for businesses in Chakwal, Islamabad and across Pakistan, as well as worldwide clients.</p>
-    <h2>React &amp; Frontend Web Development Services</h2>
-    <p>Modern responsive websites using React, JavaScript, Tailwind CSS and related web technologies.</p>
-  </div>
-
-  <script>
-    // Remove the static SEO fallback once React has mounted.
-    window.addEventListener('DOMContentLoaded', function () {
-      setTimeout(function () {
-        var fallback = document.getElementById('seo-fallback');
-        var root = document.getElementById('root');
-        if (fallback && root && root.children.length > 0) fallback.remove();
-      }, 1500);
-    });
-  </script>
+  <!-- Fallback for Non-JS Search Engine Crawlers (Invisible to Users) -->
+  <noscript>
+    <div id="seo-fallback" style="max-width:900px;margin:0 auto;padding:24px;font-family:Arial,sans-serif;color:#ffffff;background-color:#050B04;">
+      <h1>Web Developer in Pakistan — Haider Ali</h1>
+      <p>I provide modern website development services for businesses in Chakwal, Islamabad and across Pakistan, as well as worldwide clients.</p>
+      <h2>React &amp; Frontend Web Development Services</h2>
+      <p>Modern responsive websites using React, JavaScript, Tailwind CSS and related web technologies.</p>
+    </div>
+  </noscript>
   <!-- In-Browser React Application Entry Point -->
   <script type="text/babel" src="./src/App.jsx" data-presets="portfolio-preset"></script>
 </body>

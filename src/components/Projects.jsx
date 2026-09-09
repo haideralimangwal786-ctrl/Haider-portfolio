@@ -32,9 +32,10 @@ export default function Projects({ data }) {
           </div>
 
           {/* Filter Pills */}
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
             {filterTabs.map((tab) => {
               const count = tab === "All" ? data.projects.length : data.projects.filter(p => p.category === tab).length;
+              const isActive = activeFilter === tab;
               return (
                 <button
                   key={tab}
@@ -43,14 +44,20 @@ export default function Projects({ data }) {
                     setActiveFilter(tab);
                   }}
                   onMouseEnter={() => soundManager.playHover()}
-                  className={`px-4 py-2 rounded-xl font-mono text-xs uppercase tracking-wider transition-all duration-200 flex items-center gap-1.5 ${
-                    activeFilter === tab
-                      ? "bg-[#6BF500] text-[#050B04] font-bold shadow-[0_0_20px_rgba(107,245,0,0.35)]"
-                      : "bg-[#0B130A] text-[#A0A5A0] hover:text-white hover:bg-[#111d10] border border-[#162714]"
+                  className={`group px-4 sm:px-5 py-2.5 rounded-2xl font-mono text-xs uppercase tracking-wider transition-all duration-300 inline-flex items-center gap-2.5 whitespace-nowrap select-none ${
+                    isActive
+                      ? "bg-[#6BF500] text-[#050B04] font-bold shadow-[0_0_25px_rgba(107,245,0,0.4)] scale-[1.02]"
+                      : "bg-[#0B130A] text-[#A0A5A0] hover:text-white hover:bg-[#111d10] border border-[#162714] hover:border-[#6BF500]/40"
                   }`}
                 >
-                  <span>{tab}</span>
-                  <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${activeFilter === tab ? "bg-[#050B04] text-[#6BF500]" : "bg-[#162714] text-[#A0A5A0]"}`}>
+                  <span className="font-semibold">{tab}</span>
+                  <span
+                    className={`text-[11px] font-mono font-bold px-2 py-0.5 rounded-full transition-colors ${
+                      isActive
+                        ? "bg-[#050B04] text-[#6BF500]"
+                        : "bg-[#162714] text-[#6BF500] group-hover:bg-[#6BF500]/20"
+                    }`}
+                  >
                     {count}
                   </span>
                 </button>
