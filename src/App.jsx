@@ -235,15 +235,15 @@ const Icons = {
 const portfolioData = {
   personal: {
     name: "Haider Ali",
-    role: "Web Developer & React Developer | Full-Stack Engineer",
+    role: "Web Developer & Full-Stack MERN Developer | React Specialist",
     roles: [
       "Web Developer in Pakistan",
-      "React Developer",
-      "Frontend Developer",
-      "JavaScript Developer",
-      "Website Developer in Chakwal",
-      "Portfolio Website Developer",
-      "Full-Stack MERN Developer"
+      "Full-Stack MERN Developer",
+      "React & Next.js Developer",
+      "Ali Haider — Web Developer",
+      "Haider Ali Portfolio",
+      "JavaScript & Frontend Engineer",
+      "Website Developer in Chakwal"
     ],
     status: "Available for Freelance & Full-time Roles",
     location: "Chakwal & Islamabad, Pakistan (Remote & Worldwide)",
@@ -254,7 +254,7 @@ const portfolioData = {
     linkedin: "https://www.linkedin.com/in/haider-ali-8a008325a/",
     facebook: "https://www.facebook.com/share/18PW8D9uGc/",
     instagram: "https://www.instagram.com/haiderali26122?igsi=eGdrbWkwczJkNDlm",
-    bio: "Haider Ali is a professional Web Developer & React Developer based in Pakistan. Specializing in React, JavaScript, Tailwind CSS, and modern responsive websites, I provide high-performance web development services for businesses in Chakwal, Islamabad, and worldwide.",
+    bio: "Haider Ali (also known as Ali Haider) is a professional Web Developer & Full-Stack MERN Developer based in Pakistan. Specializing in modern React, JavaScript, Node.js, Express, MongoDB, and Tailwind CSS, I create high-performance web applications and portfolio solutions for clients in Chakwal, Islamabad, and worldwide.",
     shortBio: "Architecting high-performance web applications with obsessive attention to typography, micro-interactions, and scalable engineering.",
     stats: [
       { label: "Projects Built", value: "15+" },
@@ -1038,7 +1038,7 @@ function Hero({ data, onNavigate }) {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
               Web Developer &amp;{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#6BF500] via-[#86fa24] to-[#c2ff77] drop-shadow-[0_0_35px_rgba(107,245,0,0.45)]">
-                React Developer
+                MERN Developer
               </span>
             </h1>
           </div>
@@ -1246,7 +1246,7 @@ function About({ data, onNavigate }) {
               {/* Transparent Cutout Image */}
               <img
                 src="./src/assets/haider-web-developer.png"
-                alt="Haider Ali - Web Developer & React Developer in Pakistan"
+                alt="Haider Ali (Ali Haider) — Web Developer & Full-Stack MERN Developer Portfolio"
                 className="relative z-10 w-full h-[95%] object-contain object-bottom transition-transform duration-700 ease-out group-hover:scale-105"
                 style={{
                   filter: "drop-shadow(0 15px 30px rgba(0, 0, 0, 0.9)) drop-shadow(0 0 25px rgba(107, 245, 0, 0.35))"
@@ -1263,7 +1263,7 @@ function About({ data, onNavigate }) {
               <div className="absolute bottom-5 right-5 z-20 px-4 py-2 rounded-xl bg-[#0B130A]/95 border border-[#162714] group-hover:border-[#6BF500]/60 backdrop-blur-md shadow-[0_10px_25px_rgba(0,0,0,0.85)] flex items-center gap-2 select-none transition-all">
                 <Icons.Code className="w-3.5 h-3.5 text-[#6BF500]" />
                 <span className="text-[11px] font-mono text-[#A0A5A0] group-hover:text-white transition-colors">
-                  Web Developer
+                  MERN Developer
                 </span>
               </div>
             </div>
@@ -1275,10 +1275,10 @@ function About({ data, onNavigate }) {
               "Building digital products is more than writing code — it's about solving real-world business problems with speed, elegance, and unyielding precision."
             </p>
             <p className="text-[#A0A5A0]">
-              I am a professional <strong className="text-white font-semibold">Web Developer in Pakistan</strong> and dedicated <strong className="text-[#6BF500] font-semibold">React Developer</strong> &amp; <strong className="text-white font-semibold">Frontend Developer</strong> specializing in building fast, scalable, and responsive web applications. Based as a premier <strong className="text-white font-semibold">Website Developer in Chakwal</strong> and working with businesses in Islamabad and across Pakistan, I help brands establish an authoritative online presence.
+              I am <strong className="text-white font-semibold">Haider Ali</strong> (also recognized as <strong className="text-white font-semibold">Ali Haider</strong>), a professional <strong className="text-[#6BF500] font-semibold">Web Developer &amp; Full-Stack MERN Developer</strong> in Pakistan. Welcome to the official <strong className="text-[#6BF500] font-semibold">Haider Ali Portfolio</strong>, showcasing high-performance web applications built with React, Node.js, Express, MongoDB, and Tailwind CSS.
             </p>
             <p className="text-[#A0A5A0]">
-              As a seasoned <strong className="text-white font-semibold">JavaScript Developer</strong> and <strong className="text-[#6BF500] font-semibold">Portfolio Website Developer</strong>, I ensure every website is built with clean semantics, robust architecture, and 100% responsive design optimized for top search engine rankings.
+              As an experienced <strong className="text-white font-semibold">Ali Haider Web Developer</strong> and premier <strong className="text-white font-semibold">Website Developer in Chakwal</strong>, I ensure every system is architected with clean semantics, enterprise-grade scalability, and 100% responsive design optimized for top search engine rankings.
             </p>
 
             {/* Stats Grid */}
